@@ -41,7 +41,7 @@ def remove_stopwords(text, stop_words):
 # --- ОСНОВНОЙ ПРОЦЕСС ---
 
 # Загрузка данных
-# Предполагаем, что файл comments.csv находится в той же папке
+# файл comments.csv находится в той же папке если что
 df = pd.read_csv('comments.csv')
 
 # Инициализация инструментов
